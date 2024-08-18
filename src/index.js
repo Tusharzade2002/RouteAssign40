@@ -1,12 +1,16 @@
 
 import ReactDOM from 'react-dom/client';
-
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <h1>react</h1>
+  <h1>
+    <Home />
+  </h1>
 );
 
 
