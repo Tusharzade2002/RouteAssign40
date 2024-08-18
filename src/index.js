@@ -7,10 +7,22 @@ import Contact from './Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <h1>
-    <Home />
-  </h1>
-);
+const currentpath =window.location.pathname
+     if(currentpath == "/"){
+      root.render(<Home />)
+     }
+     else if(currentpath == "/About"){
+ root.render(<About />)
+     }
+     else if(currentpath == "./Contact.js"){
+      root.render(<Contact />)
+     }
+     else{
+      root.render("404 page not found")
+     }
+
+
+
+
 
 
