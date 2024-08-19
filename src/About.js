@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Navbar from './Navbar'
+import Aboutimg from '././Images/About.png'
 function About() {
   return (
     <div>
-        About
-        <img src='././Images/About us page-cuate.svg'alt='About'/>
+       <Navbar />
+       about
+        <img className='about-img' src={Aboutimg} alt='About'/>
     </div>
   )
 }

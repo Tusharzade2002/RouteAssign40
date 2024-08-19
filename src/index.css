@@ -1,0 +1,14 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home-img{
+     height: 400px;
+}
+.contact-img{
+    height: 400px;
+}
+.about-img{
+    height: 400px;
+}

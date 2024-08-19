@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+
 function Navbar() {
   return (
     <div className='Navbar'>
@@ -7,9 +8,9 @@ function Navbar() {
                Deserts
          </span>
          <div className='nav-pages'>
-          <a href='./Home.js'>Home</a>
-          <a href='./About.js'>About</a>
-          <a href='./Contact.js'>Contact</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
          </div>
     </div>
   )

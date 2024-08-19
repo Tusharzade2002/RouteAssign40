@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Navbar from './Navbar'
+import Contactimg from '././Images/Contact.png'
 function Contact() {
   return (
     <div>
-       Contact
-       <img src='././Images/Contact.svg' alt='contact'/>
+       <Navbar />
+       contact
+       <img className='contact-img' src={Contactimg} alt='contact'/>
     </div>
   )
 }
