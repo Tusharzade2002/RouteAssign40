@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 function About() {
   return (
     <div>
-        <Navbar />
+        About
+        <img src='././Images/About us page-cuate.svg'alt='About'/>
     </div>
   )
 }

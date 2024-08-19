@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 function Contact() {
   return (
     <div>
-        <Navbar />
+       Contact
+       <img src='././Images/Contact.svg' alt='contact'/>
     </div>
   )
 }
