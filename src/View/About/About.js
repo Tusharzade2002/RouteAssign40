@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Aboutimg from '././Images/About.png'
+import Navbar from './../../Component/Navbar'
+import Aboutimg from './../../Images/About.png'
 function About() {
   return (
     <div>

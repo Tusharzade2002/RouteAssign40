@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Contactimg from '././Images/Contact.png'
+import Navbar from '../../Component/Navbar'
+import Contactimg from '../../Images/Contact.png'
 function Contact() {
   return (
     <div>
